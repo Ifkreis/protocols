@@ -1,11 +1,12 @@
 package Protocols.Moldels;
 
-public class Cliente_Pessoa_Fisica extends Pessoa{
+public class Cliente_Pessoa_Fisica{
     private String Rua;
     private String Bairro;
     private String Cidade;
     private String Cep;
     private String Numero;
+    private String CPF;
     
     public String getRua() {
         return Rua;
@@ -37,4 +38,6 @@ public class Cliente_Pessoa_Fisica extends Pessoa{
     public void setNumero(String numero) {
         Numero = numero;
     }
+    public String getCPF() {return CPF;}
+    public void setCPF(String CPF) {this.CPF = CPF;}
 }
