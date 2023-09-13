@@ -11,8 +11,12 @@
 
 --Dispositivo
 ---Marca
----tipo
----configuracao_do_dispositivo
+---Tipo
+---Configuracao_do_dispositivo
+---Memoria
+---Processador
+---Placa_mae
+---Armazenamento
 ---Ano
 
 --Orcamento
@@ -26,3 +30,4 @@
 ---CadastroPF
 ---CadastroPJ
 ---Orcamento
+---Dispositivo
