@@ -1,5 +1,6 @@
 <!DOCTYPE html>
-<html lang=¨pt-br¨>
+<html lang=¨pt-br¨
+      xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
     <title>Cadastro PJ</title>
@@ -10,10 +11,14 @@
     <form method="post">
         Nome: <input type="text" value="" name="nome"/>
         CNPJ: <input type="text" value="" name="CNPJ"/>
+        Rua: <input type="text" value="" name="Rua"/>
         Bairro: <input type="text" value="" name="Bairro"/>
         Cidade: <input type="text" value="" name="Cidade"/>
         CEP: <input type="text" value="" name="CEP"/>
         Numero: <input type="text" value="" name="Numero"/>
+
+        <button type="submit">Salvar</button>
+        <button type="button">Menu</button>
     </form>
 </body>
 </html>
